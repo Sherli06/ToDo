@@ -1,0 +1,64 @@
+body {
+    background: #f4e9d8;
+    color: #4a3b2a;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.app {
+    width: 600px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: #f9f5ef;
+    color: #4a3b2a;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #555;
+    text-align: center;
+}
+
+button.complete {
+    background-color: #a3b18a;
+    color: #ffffff;
+}
+
+button.edit {
+    background-color: #e07a5f;
+    color: #ffffff;
+}
+
+button.delete {
+    background-color: #f2cc8f;
+    color: #4a3b2a;
+}
+
+.completed-task {
+    background: #ddd0c8;
+    text-decoration: line-through;
+}
